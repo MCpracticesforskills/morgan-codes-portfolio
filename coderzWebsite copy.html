@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding for Women</title>
+  <html>
+  
+  <head>
+    <title>She Codes</title>
+    <style>
+      h1 {
+        color: blueviolet;
+        text-align: center;
+        
+        font-size: 48px;
+        font-weight: 100;
+      }
+      body: 
+      {background-image: 
+      linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);} 
+      
+      button {
+        padding: 15px 30px;
+        display: block;
+        margin: 0 auto;
+        border: 1px solid blueviolet
+        cursor: pointer;} 
+         
+        
+    .coders {
+        color: #4CAEFE;
+      }
+  
+      .courses {
+        color:#4CAEFE; 
+      }
+  
+      .stories {
+        color: #4CAEFE;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <h1>
+      SheCodes
+    </h1>
+    <button>Apply Now</button>
+    <ul>
+      <li>
+        <a href="https://www.shecodes.io/students" target="_blank" class="coders">
+          Coders
+        </a>
+      </li>
+      <li>
+        <a href="https://www.shecodes.io/courses" target="_blank" class="courses">
+          Courses
+        </a>
+      </li>
+      <li>
+        <a href="https://www.shecodes.io/stories" target="_blank" class="stories">
+          Stories
+        </a>
+      </li>
+    </ul>
+    <hr />
+    <p>
+      <strong>
+        More info
+      </strong>
+    </p>
+    <img src="https://edge.alluremedia.com.au/m/g/2017/10/woman-coding.jpg" width="300" />
+  
+  <script>
+    
+    
+      function apply() {
+        let firstName = prompt("What is your first name?");
+        let age = prompt("How old are you?");
+        let heading = document.querySelector("h1");
+        if (age >= 18) {
+          heading.innerHTML = "Hi " + firstName + "! Welcome to SheCodes 👩‍💻";
+        } else {
+          heading.innerHTML =
+            "Sorry " + firstName + ", you can't apply to SheCodes yet.";
+        }
+      }
+
+      let applyButton = document.querySelector("button");
+      applyButton.addEventListener("click", apply);
+</script>
+  
+  </body>
+  
+  </html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <html>
+  
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8d83e9bcc3.js" crossorigin="anonymous"></script>
+    <title>She Codes</title>
+    <style>
+      h1 {
+        color: blueviolet;
+        text-align: center;
+        font-size: 100px;
+        font-weight: 100;
+        font-family: 'Bodoni Moda', serif; 
+      }
+      h2 {
+          font-size: 30px ;
+          padding-bottom: 50px;
+          font-family: 'Bodoni Moda', serif; 
+      }
+      body {
+        background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+      }
+      button {
+        padding: 15px 30px;
+        display: block;
+        margin: 0 auto;
+        border: 1px solid blueviolet
+        cursor: pointer; 
+        }
+        
+        button:hover
+  
+      .Fancy {
+        color:rgb(241, 83, 149);
+      }
+  
+      .Sporty {
+        color: rgb(241, 83, 149);
+      }
+  
+      .Beginner {
+        color: rgb(151, 251, 232);
+      }
+      li {
+        font-size: 55px;
+      }
+        
+        li:hover {
+        background: #fffbef;
+      }
+      p {
+        font-family: 'Bodoni Moda', serif;
+      }
+      h1 i {
+        color: black;
+        font-size: 40px;
+      }
+      
+    </style>
+  </head>
+  
+  <body>
+    <h1>
+      Dressage Horses for Sale 🦄 🐴 
+    </h1>
+    <hr>
+    <h2>Talented Dressage Horses by Morgan Farms <img src="girl and horse.svg" alt="320"></h2>
+    <hr>
+    <button class="horseButton">
+        Find Horse Now
+    </button>
+    <ul>
+      <li>
+        <a href="https://www.equinenow.com/dressage.htm" target="_blank" class="Fancy">
+          <em>Fancy</em>
+        </a>
+      </li>
+      <li>
+        <a href="https://warmblood-sales.com/dressage-horses" target="_blank" class="Sporty">
+          Sporty
+        </a>
+      </li>
+      <li>
+        <a href="https://www.supremesporthorses.com/dressage-horses-for-sale" target="_blank" class="Beginners">
+          Beginners
+        </a>
+      </li>
+    </ul>
+    <hr/>
+    <p>
+      
+        The team pictured below is Janet and her mare, <strong>Katalaya</strong>. Katalaya is a product of Morgan Farms.
+        <br>
+        Did you know that dressage means "to train" in French? Dressage has a rich history all across Europe.
+    <br>
+    Now, it is becoming more popular in America. Soon American athletes might compete in the Olympics 
+    <br>
+    alongside their European counterparts. You can train too! Morgan Farms dressage horses are athletes. 
+    <br>
+    Morgan Farms prides themselves on selling high quality horses with trainable temperments.
+
+      
+    </p>
+    <img src="https://equine-world.co.uk/info/images/dressage.jpg" width="400" />
+    <hr>
+    <p>The white horse, <strong>Blue Horse Matinee</strong>, is a very talented dressage horse. She was retired a few years ago, <br>
+    but Morgan Farms has her talented offspring for sale. Check out the <em>Fancy</em> tab listed above.</p>
+    <img src="https://www.dressage-news.com/wp-content/uploads/2009/08/Grand-Prix-Freestyle-Andreas-Helgstrand-Blue-Hors-Matine-of-Denmark-silver.jpg" width="400" />
+  
+  <script>
+      function horse() {
+          let name=prompt("What is your name, future champion?");
+          let age=prompt("How old are you?")
+          
+          if (age >=18) {
+              alert("Saddle up! 🐴" +name);
+          }
+              else {
+                 alert ("Maybe next time");
+              }
+          }
+          
+      
+    
+    
+    let horseButton =document.querySelector(".horseButton");
+    horseButton.addEventListener("click", horse);
+      
+</script>
+  
+  </body>
+  
+  </html> 
